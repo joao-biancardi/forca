@@ -1,0 +1,74 @@
+body {
+    font-family: Helvetica, san-serif;
+    background-color: #c3c3c3;
+}
+
+#principal {
+    display: flex;
+    justify-content: space-around;
+}
+
+.escondido {
+    display: none;
+}
+
+.divDisplay {
+    display: flex;
+}
+
+.letra{
+    height: 30px;
+    width: 30px;
+    border: solid 0.5px #c2c2c2;
+    outline: none;
+    background: #fff;
+    text-align: center;
+}
+
+#letraJogador{
+    height: 30px;
+    width: 150px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    background: none;
+    outline: none;
+    color: black;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    border: solid 1px white;
+    background-color: black;
+}
+
+#divMsg{
+    color: red;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px #000;
+    margin-top: 10px;
+}
+
+.jogo-interface {
+    display: flex;
+    flex-direction: column;
+}
+
+.tipo-jogo {
+    display: flex;
+}
